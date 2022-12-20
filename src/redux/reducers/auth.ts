@@ -3,7 +3,7 @@ import { CHECK_LOGGED_IN, LOGIN, LOGOUT } from "../actions";
 import { IAuthState, IAuthReducer, IAction } from "../../interfaces";
 
 const initialState: IAuthState = {
-  loggedIn: true,
+  loggedIn: false,
   isLoggingIn: false,
   username: "",
 };
